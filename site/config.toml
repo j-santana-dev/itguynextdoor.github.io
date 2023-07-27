@@ -1,0 +1,82 @@
+languageCode = 'en-us'
+title = 'The IT Guy Next Door'
+theme = "blist"
+enableEmoji = true
+
+DefaultContentLanguage = "en"
+DefaultContentLanguageInSubdir = true
+
+# googleAnalytics = "ID"
+
+[languages]
+  [languages.en]
+    contentDir = "content/en" #English
+    weight = 1
+    languageName = "English"
+    [languages.en.params]
+      introTitle = "Hey! I'm the The IT Guy Next Door!"
+      introSubtitle = "I'm a guy who is really passionate about technology. I love to share ideas and knowledge with others. Welcome to my personal blog!"
+      introPhoto = "me.jpeg"  # 456*452 is a good size
+      #logo = "/logo.png" # I don't want a logo...
+    [[languages.en.menu.main]]
+        name = "Blog"
+        url = "/blog"
+        weight = 1
+
+    [[languages.en.menu.main]]
+        name = "About"
+        url = "/about"
+        weight = 2
+
+    [[languages.en.menu.main]]
+        name = "Tags"
+        url = "/tags"
+        weight = 3
+
+[params]
+  # Enable the darkmode toggle in header
+  darkModeToggle = true
+
+  # Enable search in header
+  enableSearch = true
+
+  # Custom copyright - optional
+  copyright = "Copyright © 2023 - Jose Rodríguez Santana · All rights reserved"
+  #favicon = "/favicon.svg"
+
+  # Color for the intro details and social links block, not applicable for dark mode
+  # Supported values: Any color from TailwindCSS default colors
+  # Reference: https://tailwindcss.com/docs/customizing-colors
+  ascentColor = "bg-blue-100"
+
+  # The page bundle that is shown on the front page
+  frontBundle = "blog"
+
+  # Used to hide the post metadata such as posted date, reading time and word count
+  # Can be used at site level or page level
+  hideMeta = false
+
+  # To hide "Other languages" option if the post is available in multiple languages
+  # Can be used at site level or page level
+  hideOtherLanguages = true
+
+[params.homepage.social]
+  # Global params common for both languages
+  title = "Follow me"
+  #description = "..."
+  #twitter = "https://twitter.com/"
+  linkedin = "https://www.linkedin.com/in/rodriguezsantanajs"
+
+[build]
+  writeStats = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+# syntax highlight settings
+[markup]
+  [markup.highlight]
+    style = "dracula"
+  [markup.goldmark.renderer]
+    # Enable to include inline HTML
+    unsafe = true

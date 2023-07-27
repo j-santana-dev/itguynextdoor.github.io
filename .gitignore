@@ -1,0 +1,24 @@
+### Hugo ###
+# Generated files by hugo
+site/public
+site/resources/_gen/
+site/assets/jsconfig.json
+site/hugo_stats.json
+
+# Executable may be added to repository
+hugo.exe
+hugo.darwin
+hugo.linux
+
+# Temporary lock file while building
+site/.hugo_build.lock
+
+# visual studio code
+.vscode
+
+# blist theme
+.idea
+site/node_modules
+site/themes/blist/exampleSite/public
+site/themes/blist/exampleSite/exampleSite/hugo_stats.json
+.DS_Store
