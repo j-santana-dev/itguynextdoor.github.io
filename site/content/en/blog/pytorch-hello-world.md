@@ -3,7 +3,7 @@ title: "PyTorch 'Hello World'"
 date: 2023-07-30T20:00:00Z
 draft: false
 tags: ["AI", "PyTorch", "Deep Learning"]
-thumbnail: hitesh-choudhary-pMnw5BSZYsA-unsplash.jpg
+thumbnail: https://j-santana-dev.github.io/itguynextdoor.github.io/hitesh-choudhary-pMnw5BSZYsA-unsplash.jpg
 description: "In this post we are going to use PyTorch to build a simple Artificial Neural Network (ANN) that can convert Celsius temperatures to Fahrenheit."
 ---
 

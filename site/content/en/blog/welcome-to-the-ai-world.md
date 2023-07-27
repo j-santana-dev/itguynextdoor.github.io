@@ -3,7 +3,7 @@ title: "Introduction to Artificial Intelligence: origins, types and applications
 date: 2023-07-16T20:00:00Z
 draft: false
 tags: ["AI"]
-thumbnail: jason-leung-HBGYvOKXu8A-unsplash.jpg
+thumbnail: https://j-santana-dev.github.io/itguynextdoor.github.io/jason-leung-HBGYvOKXu8A-unsplash.jpg
 description: "In this article, we will explore the fascinating world of Artificial Intelligence (AI). We will learn about its origins, types, and applications."
 ---
 
