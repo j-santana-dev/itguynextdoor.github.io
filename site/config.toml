@@ -6,7 +6,7 @@ enableEmoji = true
 DefaultContentLanguage = "en"
 DefaultContentLanguageInSubdir = true
 
-# googleAnalytics = "ID"
+googleAnalytics = "G-ECSXP6PWYQ"
 
 [languages]
   [languages.en]
