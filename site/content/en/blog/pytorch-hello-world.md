@@ -19,7 +19,7 @@ PyTorch is an open-source machine learning framework developed by Meta. It is ba
 
 ---
 
-![Would you like to know more?](/know-more.png)
+![Would you like to know more?](https://j-santana-dev.github.io/itguynextdoor.github.io/know-more.png)
 
 * [Pytorch](https://pytorch.org/)
 * [OpenAI standardizes on PyTorch](https://openai.com/blog/openai-pytorch)
