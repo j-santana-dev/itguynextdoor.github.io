@@ -90,7 +90,7 @@ I hope you found this post interesting :smiley:. In the near future, I will be w
 
 ---
 
-![Would you like to know more?](/know-more.png)
+{{ "/know-more.png" | absURL }}
 
 * [The History of Artificial Intelligence](https://sitn.hms.harvard.edu/flash/2017/history-artificial-intelligence/)(:book:)
 * [WTF is a tensor](https://www.kdnuggets.com/2018/05/wtf-tensor.html)(:book:)
