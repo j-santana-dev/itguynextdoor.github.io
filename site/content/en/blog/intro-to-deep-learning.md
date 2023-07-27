@@ -3,7 +3,7 @@ title: "Introduction to Deep Learning and Artificial Neural Networks"
 date: 2023-07-23T20:00:00Z
 draft: false
 tags: ["AI"]
-thumbnail: "pietro-jeng-n6B49lTx7NM-unsplash.jpg"
+thumbnail: "https://j-santana-dev.github.io/itguynextdoor.github.io/pietro-jeng-n6B49lTx7NM-unsplash.jpg"
 description: "In this post, I will focus on one of the most popular subfields of AI: Deep Learning (DL)."
 ---
 
