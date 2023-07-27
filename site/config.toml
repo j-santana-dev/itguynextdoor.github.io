@@ -64,7 +64,7 @@ googleAnalytics = 'G-ECSXP6PWYQ'
   # Global params common for both languages
   title = "Follow me"
   #description = "..."
-  #twitter = "https://twitter.com/"
+  twitter = "https://twitter.com/itguynextd00r"
   linkedin = "https://www.linkedin.com/in/rodriguezsantanajs"
 
 [build]
