@@ -1,6 +1,6 @@
 ---
 title: "PyTorch 'Hello World'"
-date: 2023-07-30T12:00:00Z
+date: 2023-07-30T10:00:00Z
 draft: false
 tags: ["AI", "PyTorch", "Deep Learning"]
 thumbnail: https://j-santana-dev.github.io/itguynextdoor.github.io/hitesh-choudhary-pMnw5BSZYsA-unsplash.jpg
