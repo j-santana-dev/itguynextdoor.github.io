@@ -225,6 +225,6 @@ I hope you enjoyed this post! If you want to learn more about Pytorch, check out
 
 ![Would you like to know more?](https://j-santana-dev.github.io/itguynextdoor.github.io/know-more.png)
 
-* I strongly recommend you to read the [Pytorch](https://pytorch.org/) documentation
+* I strongly recommend you to read the [Pytorch documentation](https://pytorch.org/docs/stable/index.html)
 
 * In the following video, you can see how Tesla uses Pytorch to train their self-driving cars! {{< youtube oBklltKXtDE >}}
