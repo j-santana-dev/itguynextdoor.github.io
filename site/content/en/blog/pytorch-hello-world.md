@@ -1,6 +1,6 @@
 ---
 title: "PyTorch 'Hello World'"
-date: 2023-07-30T20:00:00Z
+date: 2023-07-30T12:00:00Z
 draft: false
 tags: ["AI", "PyTorch", "Deep Learning"]
 thumbnail: https://j-santana-dev.github.io/itguynextdoor.github.io/hitesh-choudhary-pMnw5BSZYsA-unsplash.jpg
@@ -15,7 +15,7 @@ Of course, if this is your first time in my blog, you might read my previous pos
 * [Introduction to Deep Learning and Artificial Neural Networks]({{< ref "/blog/intro-to-deep-learning" >}})
 
 ## What is PyTorch?
-PyTorch is an open-source machine learning framework developed by Meta. It is based on the Torch library and it is widely used in the field of deep learning by many important companies such as: Meta, Amazon, Salesforce, Tesla, and many more. PyTorch is written in Python (have I mentioned that I love Python? :heart_eyes:) and it is available under the BSD license.
+PyTorch is an open-source machine learning framework developed by Meta. It is based on the Torch library and it is widely used in the field of deep learning by many important companies such as: Meta, Amazon, Salesforce, Tesla, and many more. PyTorch is written in Python (have I mentioned that I love Python yet? :heart_eyes:) and it is available under the BSD license.
 
 ## Setting up the environment using virtualenv
 First, we need some python libraries so we can start working with PyTorch. Because I don't like to mess up my system's python installation, I prefer to use a virtual environment. You can use the following command to create a virtual environment with all the required libraries for this example:
@@ -25,6 +25,8 @@ First, we need some python libraries so we can start working with PyTorch. Becau
     && source venv/bin/activate \
     && pip3 install torch
 ```
+
+Of course, you can also use Docker if you want to. 
 
 ## Talk is easy, show me the code!
 Now that we have our environment ready, let's see the entire code. This represents a simple ANN that can convert Celsius temperatures to Fahrenheit. The code is heavily commented so you can understand what is going on.
@@ -153,7 +155,7 @@ class CelsiusToFahrenheit(nn.Module):
 
 The forward pass function is used to compute the output of the neural network. It defines how the input data flows through the layers of the model. Here we simply override the `forward()` function from the `nn.Module` parent class. The `x` parameter is the input of the neural network.
 
-In order to train the model, we need to compute the loss function and backpropagate the loss. That is exactly what the `train_loop()` function does. It iterates over the training data and computes the loss function. Then it backpropagates the loss and adjusts the parameters by the gradients collected in the backward pass. In this example, we use 10000 epochs to train the model, but you can change it to any number you want for your own experiments. In my case, I've found that I need at least 4500 epochs to get a good result if I use a learning rate of 0.001. 
+In order to train the model, we need to compute the loss function and backpropagate the loss. That is exactly what the `train_loop()` function does. It iterates over the training data and computes the loss function. Then it backpropagates the loss and adjusts the parameters by the gradients collected in the backward pass. In this example, we use 10000 epochs to train the model, but you can change it to any number you want for your own experiments. In my case, I've found out that I need at least 4500 epochs to get a good result if I use a learning rate of 0.001. 
 
 ```python
 def train_loop(self, x, y):
