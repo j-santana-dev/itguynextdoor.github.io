@@ -19,18 +19,14 @@ If this is the first time you visit my blog, you might want to read my previous 
 Okay, let's get started!
 
 ## Introduction
-In order to understand what Reinforcement Learning is, we can imagine a child learning to walk. The child tries to stand up and walk, but it falls. It tries again and again until it can finally walk. The child is learning by trial and error. This is the same way RL works.
+Reinforcement Learning can be understood by imagining a child learning to walk. Just like the child, an RL agent (or bot) learns through trial and error. The child is the **agent**, and its current situation is the **state**. The **action** of standing up and walking is the **policy** the child follows. The **reward** for the child is the ability to walk, and the **environment** is represented by the floor on which the child practices. In this way, RL mimics the process of learning by taking actions, observing the outcomes, and adjusting its behavior to achieve the best results, just like a child learning to walk step by step.
 
-Talking in more technical terms, the child would be **the agent** (the bot), the action of standing up and walking would be **the policy**, the reward would be **the ability to walk** and the **environment** would be the floor.
+## What is Reinforcement Learning (RL)?
+Reinforcement Learning (RL) is a subset of Machine Learning where an agent learns through trial and error by interacting with its environment in a iterative way.
 
-These four concepts are the basis of RL.
+During this process, the agent receives rewards or penalties based on its actions. By experiencing several outcomes, the agent gradually learns to achieve specific goals in an uncertain and often complex environment. RL relies in its ability to learn without any external supervision or human intervention.
 
-## What is Reinforcement Learning?
-Reinforcement Learning is a type of Machine Learning that allows an **agent** to learn by trial and error through interaction with an **environment** in an iterative way. 
-
-The agent receives rewards and penalties for its actions. This way, it learns to achieve a goal in an uncertain, potentially complex environment. This process happens in a loop and the agent tries to maximize the reward it receives with no supervision or human intervention.
-
-In RL, the agent learns from "experience" and tries to capture the best possible knowledge to make the best possible decision.
+In RL, the agent's aim is to continuously gather knowledge from its "experiences" and make decisions that maximize the rewards it receives.
 
 ## Concepts
 Taking into account the previous paragraphs, we can define some basic concepts of RL:
@@ -43,11 +39,9 @@ Taking into account the previous paragraphs, we can define some basic concepts o
 * **Policy**: this is the strategy that the agent uses to determine the next action based on the current state. For example, if the agent is playing a game, the policy would be the algorithm that determines the next action based on the current state.
 
 ## Maths behind Reinforcement Learning
-
 To be honest, It took some time for me to understand the maths behind RL. In the next sections I will try to explain some mathematical concepts that are important to understand how RL works.
 
 ### The Bellman Equation
-
 My journey began with the Bellman Equation. The Bellman Equation is a fundamental concept in dynamic programming and RL.
 
 It is a recursive formula that put together the basic concepts we discussed earlier. It is used to calculate the **value** of a state, representing the maximun expected long-term reward of the current state, taking into account the potencial future states. 
