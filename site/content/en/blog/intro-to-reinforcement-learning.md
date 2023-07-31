@@ -1,7 +1,7 @@
 ---
 title: "Introduction to Reinforcement Learning"
-date: 2023-08-05T20:00:00Z
-draft: true
+date: 2023-07-05T20:00:00Z
+draft: false
 tags: ["AI", "Deep Learning", "Reinforcement Learning"]
 thumbnail: "https://j-santana-dev.github.io/itguynextdoor.github.io/andrea-de-santis-zwd435-ewb4-unsplash.jpg"
 description: "TBD"
