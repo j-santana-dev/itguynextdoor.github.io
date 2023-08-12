@@ -1,6 +1,6 @@
 ---
 title: "Introduction to Reinforcement Learning, a Theoretical Approach (Part I)"
-date: 2023-07-05T20:00:00Z
+date: 2023-08-12T11:00:00Z
 draft: false
 tags: ["AI", "Deep Learning", "Reinforcement Learning"]
 thumbnail: "https://j-santana-dev.github.io/itguynextdoor.github.io/andrea-de-santis-zwd435-ewb4-unsplash.jpg"
