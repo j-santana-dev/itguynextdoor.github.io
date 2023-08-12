@@ -88,6 +88,8 @@ To conclude this post, I would like to share with you a youtube video that made 
 ## What's next?
 I hope you found this post interesting :smiley:. In the near future, I will be writing more posts about AI and sharing practical examples of its implementation using Python (I'm a big fan of Python :heart:). So, stay tuned!
 
+UPDATE: I have already published the next post in this series. You can read it [here]({{< ref "/blog/intro-to-deep-learning" >}}).
+
 ---
 
 ![Would you like to know more?](https://j-santana-dev.github.io/itguynextdoor.github.io/know-more.png)

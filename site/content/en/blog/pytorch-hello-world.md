@@ -221,6 +221,8 @@ You may notice that the predictions are not always 100% accurate. That's because
 ## What's next?
 I hope you enjoyed this post! If you want to learn more about Pytorch, check out the "Would you like to know more?" section below. In future posts, I will show you how to create more complex neural networks using Pytorch. Stay tuned!
 
+UPDATE: I have already published the next post in this series. You can read it [here]({{< ref "/blog/intro-to-reinforcement-learning" >}}).
+
 ---
 
 ![Would you like to know more?](https://j-santana-dev.github.io/itguynextdoor.github.io/know-more.png)

@@ -78,6 +78,8 @@ In conclusion, Deep Learning (DL), a subfield of AI, offers a powerful approach 
 ## What's next?
 In the next post, I'm going to talk about PyTorch, a popular Deep Learning framework. I'll show you how to build a simple ANN and how to train it to perform a simple task. Stay tuned!
 
+UPDATE: I have already published the next post in this series. You can read it [here]({{< ref "/blog/pytorch-hello-world" >}}).
+
 ---
 
 ![Would you like to know more?](https://j-santana-dev.github.io/itguynextdoor.github.io/know-more.png)
