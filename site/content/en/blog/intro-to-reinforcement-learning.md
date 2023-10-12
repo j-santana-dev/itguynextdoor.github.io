@@ -1,5 +1,5 @@
 ---
-title: "Introduction to Reinforcement Learning, a Theoretical Approach (Part I)"
+title: "Introduction to Reinforcement Learning, a Theoretical Approach"
 date: 2023-08-12T11:00:00Z
 draft: false
 tags: ["AI", "Deep Learning", "Reinforcement Learning"]
