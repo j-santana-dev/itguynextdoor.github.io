@@ -169,10 +169,10 @@ We can see that the values of the cells are getting lower and lower as we move a
 Notice that to calculate the value of the next state, we have only used the value of the current state and not all the values of the previous states. This is something that I will explain in future blog posts when I talk about the Markov Property and Markov Decision Processes (MDP), but for now, we can summarize that the evolution of the agent in the environment depends only on the present state and not on the past history of states.
 
 ## Summary
-In this post, I have tried to explain some of the theoretical concepts that could help you to understand the basics of Reinforcement Learning. I also have explained the Bellman equation and how it can be used to solve a deterministic scenario using a simple example.
+In this post, I have tried to explain some of the theoretical concepts that could help you to understand the basics of Reinforcement Learning. I also have explained the Bellman equation, that is a core principle of Reinforcement Learning that expresses the relationship between values and future rewards.
 
 ## What's next?
-In future posts, I will show you how to use the Bellman equation to solve scenarios where outcomes are uncertain, and the agent relies on probabilities to choose the next action. When I settle down the theoretical concepts, I will show you how to implement a simple Reinforcement Learning case using PyTorch :sunglasses:! Stay tuned!
+In future posts, I will explain other important concepts of artificial intelligence and reinforcement learning. I will also show you how to implement some of these concepts using Python and PyTorch!
 
 ---
 
