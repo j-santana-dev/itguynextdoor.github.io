@@ -41,7 +41,7 @@ googleAnalytics = 'G-ECSXP6PWYQ'
   enableSearch = true
 
   # Custom copyright - optional
-  copyright = "Copyright © 2023 - Jose Rodríguez Santana · All rights reserved"
+  copyright = "Copyright © 2024 - Jose Rodríguez Santana · All rights reserved"
   #favicon = "/favicon.svg"
 
   # Color for the intro details and social links block, not applicable for dark mode
