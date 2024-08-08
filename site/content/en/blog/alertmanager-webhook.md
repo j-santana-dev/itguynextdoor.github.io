@@ -3,14 +3,14 @@ title: "Alertmanger configuration to send alerts to webhook"
 date: 2024-08-5T20:00:00Z
 draft: false
 tags: ["DevOps", "Observability", "Prometheus", "Alertmanager"]
-thumbnail: ""
+thumbnail: "https://j-santana-dev.github.io/itguynextdoor.github.io/nothingtoseehere.jpg"
 description: "Configure Alertmanager to send alerts to a webhook"
 ---
 
 ## Introduction
 Alertmanager is an open-source alerting system that works with Prometheus. It handles alerts sent by client applications such as the Prometheus server or Grafana. 
 
-In this article, I will show you how to configure Alertmanager to send alerts to your own webhook.
+In this article, I will show you how to configure Alertmanager to send alerts to your own webhook application.
 
 ## Versions
 In the time of writing this article, the versions I used are:
@@ -19,7 +19,7 @@ In the time of writing this article, the versions I used are:
 - Grafana: v10.4.2
 
 ## Context
-Recently, I had to configure Alertmanager to send alerts to a webhook.
+Recently, I had to configure Alertmanager to send alerts to a webhook application over HTTP.
 My stack is composed of the following components:
 - N number of Prometheus instances
 - N number of Alertmanager instances
@@ -258,7 +258,7 @@ docker-compose up
 You can create a dashboard in Grafana and set an alert to test the configuration. You can check the logs of the Alertmanager and the echo server to see the alerts being sent!
 
 ## Conclusion
-One of the most important things that I learned from this experience is that you never should put your Alertmanager instances under a round-robin load balancer. This can end up with inconsistent behavior.
+One of the most important things that I've learned from this experience is that you never should put your Alertmanager instances under a round-robin load balancer. This can end up with inconsistent behavior.
 
 All your Alertmanager instances should be called in parallel by the client applications (like Grafana or Prometheus).
 
