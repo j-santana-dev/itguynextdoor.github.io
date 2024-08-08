@@ -1,6 +1,6 @@
 ---
 title: "Alertmanger configuration to send alerts to webhook"
-date: 2024-08-5T20:00:00Z
+date: 2024-08-08T17:00:00Z
 draft: false
 tags: ["DevOps", "Observability", "Prometheus", "Alertmanager"]
 thumbnail: "https://j-santana-dev.github.io/itguynextdoor.github.io/nothingtoseehere.jpg"
