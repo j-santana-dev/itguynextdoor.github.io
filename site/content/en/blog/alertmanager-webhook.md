@@ -1,10 +1,10 @@
 ---
-title: "Alertmanger configuration to send alerts to webhook"
+title: "Alertmanger configuration to send alerts to webhook application"
 date: 2024-08-08T00:00:00Z
 draft: false
 tags: ["DevOps", "Observability", "Prometheus", "Alertmanager"]
 thumbnail: "https://j-santana-dev.github.io/itguynextdoor.github.io/nothingtoseehere.jpg"
-description: "Configure Alertmanager to send alerts to a webhook"
+description: "Configure Alertmanager to send alerts to a webhook application"
 ---
 
 ## Introduction
@@ -26,20 +26,31 @@ My stack is composed of the following components:
 - N number of Grafana instances
 - N number of Webhook instances
 
-## What is expected
+## What is expected to happen?
 When an alert is triggered from Grafana (based on metrics from Prometheus), it is sent to all Alertmanager instances in parallel through the Grafana's contact point.
 The Alertmanager instances are in cluster mode, so they share the same configuration. When an alert is received, Alertmanager coordinates the alerts and sends them to the Webhook instances with no duplicates.
 
-## Components
-I will work with the following components for this example test:
+## Architecture
+The architecture is the following:
+
+![Load Balancer design](https://j-santana-dev.github.io/itguynextdoor.github.io/alertmanager-arch-0.png)
+
+## Docker-compose
+In order to test the configuration on local, I'll use the following components using docker-compose:
+
 - Grafana: to create dashboards and alerts
 - Prometheus: to collect metrics
 - Alertmanager: to handle alerts from Grafana alerts
 - webhook application: to receive alerts from Alertmanager and do whatever you want with them.
 - Nginx: to route the requests among the components
 
-## Docker-compose
-In order to test the configuration, I created a `docker-compose.yml` file with the following content:
+The architecture is the following:
+
+![Docker-compose design](https://j-santana-dev.github.io/itguynextdoor.github.io/alertmanager-arch-1.png)
+
+Let's see the docker-compose file:
+
+`docker-compose.yml`
 
 ```yaml
 version: '3'
